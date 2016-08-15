@@ -2,7 +2,7 @@ This is a implementation of the examples in the blog post https://medium.com/jav
 
 The tests fails on purpose.
 
-Run test example the following way.
+Run test example the following way with node v6:
 
 ```
 npm install
