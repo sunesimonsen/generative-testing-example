@@ -1,10 +1,13 @@
 {
-  "name": "generative-testing",
+  "name": "generative-testing-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "test": "mocha"
+  },
   "devDependencies": {
     "chance-generators": "1.18.0",
     "mocha": "3.0.2",
