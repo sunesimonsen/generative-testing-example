@@ -1,0 +1,15 @@
+{
+  "name": "generative-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chance-generators": "1.18.0",
+    "mocha": "3.0.2",
+    "standard": "7.1.2",
+    "unexpected": "10.15.1",
+    "unexpected-check": "1.11.0"
+  }
+}
