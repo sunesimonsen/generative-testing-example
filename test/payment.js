@@ -56,10 +56,10 @@ describe('handlePayment', () => {
 
   describe('version 3', () => {
     const handlePayment = (balance, payment) =>
-          (!payment ||
-           (balance <= 0 && balance - payment < balance) ||
-           balance - payment < 0)
-          ? balance : balance - payment
+          payment &&
+          ((balance <= 0 && balance - payment > balance) ||
+           balance - payment >= 0)
+          ? balance - payment : balance
 
     it('zero payments does not change the balance', () => {
       expect((balance) => {
